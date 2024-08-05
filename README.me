@@ -1,0 +1,49 @@
+# Real-Time Chat Application Backend with Node.js, Express, and Socket.IO
+
+This project involves developing a robust and scalable backend for a real-time chat application 
+using Node.js, Express, MongoDB, and Socket.IO. The application supports multiple chat rooms with 
+administrative capabilities, real-time messaging, and additional features to enhance user experience.
+
+## Features
+
+- **Real-Time Messaging**: Instant message delivery between users using Socket.IO.
+- **User Authentication**: Secure user authentication and authorization with JWT and bcrypt.
+- **Chat Rooms**: Create and manage multiple chat rooms, each with designated administrators.
+- **Message Enhancements**: Rewrite messages and add emojis to enhance communication.
+- **Database Management**: Efficient data storage and retrieval using MongoDB and Mongoose.
+- **Logging and Error Handling**: Comprehensive logging with Winston and robust error handling mechanisms.
+- **Testing**: Ensure code quality with unit and integration tests using Jest and Supertest.
+- **Configuration Management**: Securely manage configuration and environment variables.
+- **Performance Optimization**: Optimize the event loop and task handling for better performance.
+
+## Getting Started
+
+### Installation
+
+1. Clone the repository:
+    git clone https://github.com/AmirHoseinEnsafi/tsChatBackendWeb.git
+    cd tsChatBackendWeb
+
+2. Install dependencies:
+    npm install
+
+3. Set up environment variables
+
+    SKT=******
+
+### Running the Application
+
+1. Start the MongoDB server:
+    mongod
+
+2. Start the Node.js server:
+
+    node index
+
+3. The server will be running at `http://localhost:3000`.
+
+### Running Tests
+
+Run unit and integration tests with Jest and Supertest:
+
+npm test
